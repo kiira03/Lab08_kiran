@@ -21,5 +21,11 @@ public class CustomList {
          return cities.contains(city);
      }
 
+//     Delete City Implementation - Tests Passed
+
+    public void deleteCity(City city) {
+        cities.remove(city);
+    }
+
 
 }
