@@ -1,8 +1,12 @@
 package com.example.lab08;
-
+/*
+This class specifies attributes and methods for City Objects
+Attributes: city, province
+Methods: getCityName(), getProvinceName()
+*/
 public class City {
-    private String city;
-    private String province;
+    private final String city;
+    private final String province;
 
     public City(String city, String province){
         this.city = city;
