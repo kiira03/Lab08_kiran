@@ -27,5 +27,12 @@ public class CustomList {
         cities.remove(city);
     }
 
+//    countCities Implementation - Faulty - Tests Failed
+
+    public int countCities() {
+        return cities;
+    }
+
+
 
 }
