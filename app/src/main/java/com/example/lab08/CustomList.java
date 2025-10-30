@@ -30,7 +30,7 @@ public class CustomList {
 //    countCities Implementation - Faulty - Tests Failed
 
     public int countCities() {
-        return cities;
+        return cities.size();
     }
 
 
